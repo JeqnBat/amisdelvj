@@ -1,0 +1,17 @@
+/* HEADER
+________________________________________________________ */
+/* Header Padding */
+.site-header {
+  padding: 0 6vw 0 6vw!important;
+}
+/* Hides page's H1 title */
+.ast-primary-header-bar {
+  background-color: #F5ECE4!important;
+}
+/* Menu Links */
+.main-navigation a {
+  color: #1E1A19!important;
+}
+.main-navigation a:hover {
+  color: #FF3200!important;
+}

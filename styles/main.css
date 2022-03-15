@@ -1,0 +1,22 @@
+/* MAIN LAYOUT
+________________________________________________________ */
+/* Full Width */
+.ast-container {
+  max-width: 100vw!important;
+  padding: 0;
+}
+.category-links h1 {
+  transition: color .2s ease-in-out;
+}
+.category-links h1:hover {
+  color: #FF3200!important;
+}
+/* HomePage News Font settings */
+.rpwwt-post-excerpt {
+  font-size: 1.1rem;
+  color: #1E1A19!important;
+}
+/* HomePage article's title size */
+.rpwwt-post-title {
+  font-size: 2rem;
+}

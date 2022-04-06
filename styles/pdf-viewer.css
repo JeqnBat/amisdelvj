@@ -1,0 +1,18 @@
+/* PDF VIEWER
+________________________________________________________ */
+.entry-content {
+  display: flex!important;
+  flex-direction: column!important;
+  flex-wrap: nowrap!important;
+  justify-content: center!important;
+  align-items: center!important;
+}
+.entry-content button {
+  align-self: flex-start;
+  margin: 40px;
+  color: #1E1A19;
+  background: transparent;
+}
+.entry-content button:hover {
+  color: #FF3200;
+}

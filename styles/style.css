@@ -22,7 +22,11 @@ ________________________________________________________ */
 @import "header.css";
 @import "main.css";
 @import "footer.css";
+@import "letters.css";
+@import "pdf-viewer.css";
 
+
+/* 2. GENERAL SETTINGS
 /* 2. GENERAL SETTINGS
 ________________________________________________________ */
 /* Non-elementor background color */
@@ -43,3 +47,6 @@ body {
  * GREY HEADER BACKGROUND
  * #D8D8D8
  */
+ #comments {
+	 display: none;
+ }

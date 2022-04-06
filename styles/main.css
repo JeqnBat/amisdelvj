@@ -6,9 +6,10 @@ ________________________________________________________ */
   padding: 0;
 }
 .category-links h1 {
-  transition: color .2s ease-in-out;
+  transition: color .1s ease-in-out;
+  list-style-type: none;
 }
-.category-links h1:hover {
+.category-links:hover h1 {
   color: #FF3200!important;
 }
 /* HomePage News Font settings */

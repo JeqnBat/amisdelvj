@@ -1,0 +1,44 @@
+/* LETTERS
+________________________________________________________ */
+.wp-show-posts-single.post {
+  margin-top: 120px;
+}
+.wp-show-posts-inner {
+  position: relative;
+  transition: all .2s ease-in-out;
+}
+.wp-show-posts-inner time {
+  display: none;
+}
+.wp-show-posts-entry-header h2 {
+  font-size: 1.5rem!important;
+}
+.wp-show-posts-inner::before {
+  content: ' ';
+  position: absolute;
+  top: -60px;
+  width: 100%;
+  height: 58px;
+  background: url('https://lvj.jeanbaptistepellier.fr/wp-content/uploads/2022/04/lettre.png') no-repeat;
+  background-position: center;
+  transition: all .2s ease-in-out;
+}
+.wp-show-posts-columns#wpsp-2277 .wp-show-posts-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wp-show-posts-inner:hover::before {
+  background-color: #ebe4de;
+  transform: translateY(4px);
+}
+.wp-show-posts-inner:hover {
+  background-color: #ebe4de;
+}
+.wp-show-posts a {
+  color: #1E1A19;
+}
+.nav-links {
+  display: none!important;
+}

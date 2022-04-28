@@ -19,14 +19,13 @@ Template: astra
 
 /* 1. IMPORTS
 ________________________________________________________ */
-@import "header.css";
-@import "main.css";
-@import "footer.css";
-@import "letters.css";
-@import "pdf-viewer.css";
+@import "modules/header.css";
+@import "modules/main.css";
+@import "modules/footer.css";
+@import "modules/letters.css";
+@import "modules/pdf-viewer.css";
+@import "modules/travels-index.css";
 
-
-/* 2. GENERAL SETTINGS
 /* 2. GENERAL SETTINGS
 ________________________________________________________ */
 /* Non-elementor background color */
@@ -47,6 +46,10 @@ body {
  * GREY HEADER BACKGROUND
  * #D8D8D8
  */
- #comments {
-	 display: none;
- }
+#comments {
+	display: none;
+}
+/* hide picture meta data */
+figure.gallery-item figcaption {
+	display: none;
+}

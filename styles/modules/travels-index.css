@@ -1,0 +1,57 @@
+/* TRAVELS INDEX PAGE
+________________________________________________________ */
+#wpsp-2497 a[rel], #wpsp-2497 img {
+  display: none;
+}
+.custom-miniature-title {
+  position: relative;
+  height: 250px;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 24px;
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+}
+.miniature-background {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover!important;
+  background-position: center;
+  transition: all 0.2s ease-in-out;
+}
+.miniature-background::before {
+  position: absolute;
+  content: ' ';
+  background: black;
+  opacity: .15;
+  inset: 0;
+  transition: all .2s ease-in-out;
+}
+.custom-miniature-title > .part {
+  display: inline-block;
+  margin: 1px 0;
+  padding: 0 5px;
+  font-weight: 500;
+  background-color: rgb(255,255,255, .75);
+  z-index: 1;
+}
+.custom-miniature-title :nth-child(2) {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+.custom-miniature-title :nth-child(3) {
+  font-size: 1.2rem;
+}
+.custom-miniature-title:hover .miniature-background {
+  height: 105%;
+  width: 105%;
+}
+.custom-miniature-title:hover .miniature-background::before {
+  opacity: 0;
+}

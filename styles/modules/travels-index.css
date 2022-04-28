@@ -3,6 +3,13 @@ ________________________________________________________ */
 #wpsp-2497 a[rel], #wpsp-2497 img {
   display: none;
 }
+#wpsp-2904 a[rel], #wpsp-2904 img {
+  display: none;
+}
+/* Remove margin-top from individual miniature */
+#wpsp-2904 .wp-show-posts-entry-header, #wpsp-2497 .wp-show-posts-entry-header {
+  margin: 0;
+}
 .custom-miniature-title {
   position: relative;
   height: 250px;

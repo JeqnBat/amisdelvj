@@ -56,22 +56,16 @@ figure.gallery-item figcaption {
 /* Hover effect on picture gallery */
 .gallery-icon {
 	position: relative;	
+	max-width: 150px;
+	background-color: rgb(30, 26, 25, .2);
 }
 .elementor-image-gallery .gallery-item img {
 	margin: 0!important;
+	mix-blend-mode: multiply;
 }
-.gallery-icon::before {
-	content: ' ';
-	position: absolute;
-	inset: 0;
-	height: 100%;
-	max-width: 150px;
-	background: rgb(0,0,0, .2);
-	cursor: pointer;
-	transition: all .2s ease-in-out;
-}
-.gallery-icon:hover::before {
-	background: transparent;
+.elementor-image-gallery .gallery-item:hover img {
+	margin: 0!important;
+	mix-blend-mode: normal;
 }
 /* Back link travel page */
 .elementor-widget-container button {
